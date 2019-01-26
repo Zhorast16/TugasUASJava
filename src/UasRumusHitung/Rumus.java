@@ -28,8 +28,6 @@ public class Rumus {
         hex=hexchars[rem]+hex;
         v1=v1/16;
         }
-        
-        //String test = Integer.valueOf(hex);
         return hex;
     }
 

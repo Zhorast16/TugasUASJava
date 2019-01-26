@@ -204,16 +204,12 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
             } else {
                 //int hasil = 0;
                 int desi = Integer.parseInt(n1);
-                
                 hasil = convert.Rumus(desi);
                 jTextField2.setEditable(false);
                 jTextField2.setText(String.valueOf(hasil));
-                
-            }
-            
+            } 
         } else if (jRadioButton2.isSelected()) {
             String hasil = null;
-            
             if (x != null && x.trim().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Masukan Angka");
             } else {
@@ -222,7 +218,6 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
                 jTextField2.setText(String.valueOf(hasil));
             }
         }
-        
     }
 
 }
